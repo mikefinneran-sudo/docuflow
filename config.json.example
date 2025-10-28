@@ -1,0 +1,57 @@
+{
+  "client_name": "Default Client",
+  "base_path": "Documents",
+
+  "folder_structure": {
+    "departments": ["Finance", "HR", "Operations", "Sales", "Legal"],
+    "categories": ["Working", "Final", "Archive"]
+  },
+
+  "naming_convention": {
+    "pattern": "{client}_{project}_{date}_v{version}.{ext}",
+    "date_format": "%Y%m%d",
+    "auto_version": true
+  },
+
+  "version_control": {
+    "enabled": true,
+    "version_dir": "versions",
+    "max_versions": 5,
+    "track_metadata": true
+  },
+
+  "retention_policy": {
+    "enabled": true,
+    "archive_after_days": 30,
+    "delete_after_days": 180,
+    "run_schedule": "daily"
+  },
+
+  "alerts": {
+    "enabled": true,
+    "alert_days_before_delete": 7,
+    "notification_method": "email",
+    "email": {
+      "smtp_server": "smtp.gmail.com",
+      "smtp_port": 587,
+      "from_email": "alerts@yourdomain.com",
+      "to_email": "admin@yourdomain.com"
+    },
+    "slack": {
+      "webhook_url": ""
+    }
+  },
+
+  "file_types": {
+    "documents": [".docx", ".doc", ".pdf", ".txt"],
+    "spreadsheets": [".xlsx", ".xls", ".csv"],
+    "presentations": [".pptx", ".ppt"],
+    "images": [".png", ".jpg", ".jpeg"],
+    "archives": [".zip", ".rar"]
+  },
+
+  "exclusions": {
+    "folders": ["versions", "Archive", ".git"],
+    "files": [".DS_Store", "Thumbs.db"]
+  }
+}
