@@ -144,7 +144,7 @@ Intelligence/
 ## 📝 Next Steps
 
 1. **Validate concept**: Build simple prototype with 1 template
-2. **User testing**: Test with WalterSignal contracts
+2. **User testing**: Test with real contracts
 3. **Refine extraction**: Improve action detection
 4. **Build chat MVP**: Basic @ mention system
 5. **Launch beta**: 10 user test group

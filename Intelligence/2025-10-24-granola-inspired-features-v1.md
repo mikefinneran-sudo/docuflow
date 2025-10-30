@@ -138,10 +138,10 @@ Difference: TechCorp is 17% higher hourly, 50% higher retainer"
 
 **Action Tracking:**
 ```
-User: "Show me all action items from @project-plan-waltersignal"
+User: "Show me all action items from @project-plan-demo"
 
 AI Response:
-"WalterSignal Project Actions (8 total):
+"Demo Project Actions (8 total):
 Completed (3):
   ✓ Set up GitHub repo
   ✓ Design pitch deck
@@ -225,7 +225,7 @@ Professional services agreement for AI consulting at $150/hour with
 $10K monthly retainer. Net 30 payment terms. 6-month initial term.
 
 ## 🔑 Key Details
-- **Parties:** WalterSignal LLC, Acme Corp
+- **Parties:** Demo LLC, Acme Corp
 - **Start Date:** 2025-11-01
 - **End Date:** 2025-05-01 (6 months)
 - **Value:** $10,000/month + $150/hour overage
@@ -234,7 +234,7 @@ $10K monthly retainer. Net 30 payment terms. 6-month initial term.
 ## ✅ Action Items (3)
 - [ ] Client to provide credentials by Oct 30 (@acme)
 - [ ] Sign and return by Oct 28 (@acme)
-- [ ] Set up payment processing (@waltersignal)
+- [ ] Set up payment processing (@demo-project)
 
 ## 📄 Full Document
 [Original content below...]
@@ -312,7 +312,7 @@ DocuFlow Intelligence Stack:
     "created": "2025-10-24",
     "processed": "2025-10-24T10:30:00Z",
     "metadata": {
-      "parties": ["WalterSignal LLC", "Acme Corp"],
+      "parties": ["Demo LLC", "Acme Corp"],
       "start_date": "2025-11-01",
       "end_date": "2025-05-01",
       "value": {
@@ -468,7 +468,7 @@ pip install pypdf2 python-docx markdown spacy anthropic sqlite3
 ## 📝 Next Steps
 
 1. **Validate concept**: Build simple prototype with 1 template
-2. **User testing**: Test with WalterSignal contracts
+2. **User testing**: Test with real contracts
 3. **Refine extraction**: Improve action item detection
 4. **Build chat MVP**: Basic @ mention system
 5. **Launch beta**: Invite 10 users to test
